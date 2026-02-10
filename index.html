@@ -1,70 +1,11 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
   <meta charset="UTF-8">
-
-  <title>Be My Valentine 💖</title>
-
-  <style>
-
-    body {
-
-      font-family: Arial, sans-serif;
-
-      background: #ffe6f0;
-
-      text-align: center;
-
-      padding-top: 100px;
-
-    }
-
-    h1 {
-
-      color: #d63384;
-
-    }
-
-    button {
-
-      font-size: 18px;
-
-      padding: 12px 25px;
-
-      margin: 15px;
-
-      border: none;
-
-      border-radius: 8px;
-
-      cursor: pointer;
-
-    }
-
-    #yes {
-
-      background-color: #ff4d6d;
-
-      color: white;
-
-    }
-
-    #no {
-
-      background-color: #adb5bd;
-
-      color: white;
-
-    }
-
-  </style>
-
+  <title>Valentine 💖</title>
 </head>
 
-<body>
+<body style="background:#ffe6f0; text-align:center; padding-top:100px; font-family:Arial;">
 
  <h1>Will you be my Valentine? 💘</h1>
 
@@ -73,7 +14,7 @@
   <button id="no">No 🙃</button>
 </div>
 
- <script>
+  <script>
   const noBtn = document.getElementById("no");
 
   noBtn.addEventListener("mouseover", () => {
@@ -86,13 +27,7 @@
   document.getElementById("yes").onclick = () => {
     document.body.innerHTML = "<h1>YAY!! 💖💖💖</h1><p>You’re my Valentine 😍</p>";
   };
-
-
-  </script>
-
- 
+</script>
 
 </body>
-
 </html>
-
